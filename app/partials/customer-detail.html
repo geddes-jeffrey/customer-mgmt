@@ -1,0 +1,22 @@
+<form name='customerform' ng-submit='form.submit()'>
+    <h3>Customer</h3>
+    <div>{{messages}}</div>
+    <div class='row'>
+        <div class='form-group col-lg-3'>
+            <input type='text' class='form-control' placeholder='First Name' ng-model='customer.first_name' required>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='form-group col-lg-3'>
+            <input type='text' class='form-control' placeholder='Last Name' ng-model='customer.last_name' required>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='form-group col-lg-3'>
+          <input type='email' class='form-control' placeholder='Email Address' ng-model='customer.email' required>
+        </div>
+    </div>
+
+    <input type='submit' class='btn btn-primary' value='Save'>
+    <a class='btn btn-primary' href='#/customers'>Cancel</a>
+</form>

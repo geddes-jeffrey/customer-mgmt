@@ -1,0 +1,10 @@
+body {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 900px; 
+    height: 300px;
+}
